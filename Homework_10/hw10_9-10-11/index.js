@@ -24,21 +24,5 @@ console.log(divisors);
 // Part 10
 console.log(evenDivisorCount);
 
-//Part 11
+// Part 11
 console.log(evenDivisorSum);
-
-// let numbers = [1, 2, 3, 4];
-// numbers.map(number => number * 10)
-
-//Part 10
-// let evenNumbers = divisors.filter(
-//     number => number % 2 === 0
-// );
-
-// console.log(evenNumbers.length);
-
-// for(; i <= 200; i++) {
-//     if (i % 3 === 0) {
-//         numbers.push(i);
-//     }
-// }
