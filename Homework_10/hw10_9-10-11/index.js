@@ -1,22 +1,19 @@
-let number = 120;
+let number = 50;
 const divisors = [];
-let i = 2;
+let i = 1;
 let evenDivisorCount = 0;
 let evenDivisorSum = 0;
 
-while(i <= number) {
-    if(number % i === 0){
+for (; i <= number; i++) {
+    if (number % i === 0) {
         divisors.push(i);
-        number /= i;
-
         if (i % 2 === 0) {
             evenDivisorCount++;
             evenDivisorSum += i;
         }
-    } else {
-        i++;
     }
 }
+
 
 // Part 9
 console.log(divisors);
