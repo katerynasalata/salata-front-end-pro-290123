@@ -1,0 +1,21 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.voting-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+}
+
+.wrapper__emoji {
+    text-decoration: none;
+}
